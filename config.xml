@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.fabregas.weconnect" version="1.0.0"
+  xmlns="http://www.w3.org/ns/widgets"
+  xmlns:cdv="http://cordova.apache.org/ns/1.0">
+
+  <name>WeConnect</name>
+  <description>WeConnect Blog App</description>
+  <author email="fabslanc3014@gmail.com" href="">Lance</author>
+
+  <content src="index.html" />
+
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+
+  <platform name="android">
+    <allow-intent href="market:*" />
+  </platform>
+
+  <platform name="ios">
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+  </platform>
+
+</widget>
