@@ -1,5 +1,5 @@
 
-const API_BASE = '/api';
+const API_BASE = 'https://m.gohumano.com/apislim4lance/api';
 
 async function apiFetch(path: string, options: RequestInit = {}) {
   const res = await fetch(`${API_BASE}${path}`, {
